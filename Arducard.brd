@@ -4490,16 +4490,17 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="73.25" y1="44.630634375" x2="73.25" y2="45.7" width="0.4064" layer="16"/>
 </signal>
 <signal name="RX">
+<contactref element="JP1" pad="P$2"/>
 <contactref element="U1" pad="30"/>
 <wire x1="72.4726" y1="28.51" x2="73.31" y2="28.51" width="0.4064" layer="16"/>
 <wire x1="73.31" y1="28.51" x2="74.3" y2="29.5" width="0.4064" layer="16"/>
 <via x="74.3" y="29.5" extent="1-16" drill="0.6"/>
 <wire x1="74.3" y1="29.5" x2="74.3" y2="42.6" width="0.4064" layer="1"/>
 <wire x1="74.3" y1="42.6" x2="75.79" y2="44.09" width="0.4064" layer="1"/>
-<contactref element="JP1" pad="P$3"/>
-<wire x1="75.79" y1="44.09" x2="78.33" y2="45.7" width="0" layer="19" extent="1-1"/>
+<wire x1="75.79" y1="44.09" x2="75.79" y2="45.7" width="0.4064" layer="1"/>
 </signal>
 <signal name="TX">
+<contactref element="JP1" pad="P$3"/>
 <contactref element="U1" pad="31"/>
 <wire x1="72.4726" y1="27.71" x2="75.31" y2="27.71" width="0.4064" layer="16"/>
 <wire x1="75.31" y1="27.71" x2="76" y2="28.4" width="0.4064" layer="16"/>
@@ -4507,8 +4508,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="76" y1="28.4" x2="76.1" y2="28.4" width="0.4064" layer="1"/>
 <wire x1="76.1" y1="28.4" x2="76.1" y2="40.6" width="0.4064" layer="1"/>
 <wire x1="76.1" y1="40.6" x2="78.33" y2="42.83" width="0.4064" layer="1"/>
-<contactref element="JP1" pad="P$2"/>
-<wire x1="78.33" y1="42.83" x2="75.79" y2="45.7" width="0" layer="19" extent="1-1"/>
+<wire x1="78.33" y1="42.83" x2="78.33" y2="45.7" width="0.4064" layer="1"/>
 </signal>
 </signals>
 <errors>
