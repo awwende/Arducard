@@ -11098,26 +11098,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="RX" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="TXO"/>
-<wire x1="180.34" y1="5.08" x2="177.8" y2="5.08" width="0.1524" layer="91"/>
-<label x="177.8" y="5.08" size="1.27" layer="91" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="PD0(RXD)"/>
 <wire x1="124.46" y1="60.96" x2="127" y2="60.96" width="0.1524" layer="91"/>
 <label x="127" y="60.96" size="1.27" layer="91" xref="yes"/>
 </segment>
-</net>
-<net name="TX" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="RXI"/>
 <wire x1="180.34" y1="2.54" x2="177.8" y2="2.54" width="0.1524" layer="91"/>
 <label x="177.8" y="2.54" size="1.27" layer="91" rot="R180" xref="yes"/>
 </segment>
+</net>
+<net name="TX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PD1(TXD)"/>
 <wire x1="124.46" y1="58.42" x2="127" y2="58.42" width="0.1524" layer="91"/>
 <label x="127" y="58.42" size="1.27" layer="91" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="TXO"/>
+<wire x1="180.34" y1="5.08" x2="177.8" y2="5.08" width="0.1524" layer="91"/>
+<label x="177.8" y="5.08" size="1.27" layer="91" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
